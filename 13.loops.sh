@@ -1,5 +1,6 @@
 #!/bin/bash
 
-for ((i=0; i<=1000; i++)); do
-    echo "$i"
+for i in {0..1000} #0-1000
+do
+	echo $i
 done
