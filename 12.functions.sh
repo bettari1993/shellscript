@@ -1,6 +1,6 @@
 #!/bin/bash
 USERID=$(id -u)
-CHECK_PORT(){
+CHECK_POOT(){
     if [ $USERID -ne 0 ]
     then
     echo "Please run this script with root priveleges"
